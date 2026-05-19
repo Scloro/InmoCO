@@ -21,3 +21,9 @@ server:
 logging:
   level:
     inmoco: DEBUG
+
+spring:
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:db/inmoco_db.sql
